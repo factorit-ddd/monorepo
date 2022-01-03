@@ -9,7 +9,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "jifeline/shared-core": "^0.2"
     },
     "extra": {
         "branch-alias": {
