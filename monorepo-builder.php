@@ -25,6 +25,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
 //    ]);
 
     $parameters->set(Option::PACKAGE_ALIAS_FORMAT, '<major>.<minor>.x-dev');
+    $parameters->set(Option::DEFAULT_BRANCH_NAME, 'main');
 
     $services = $containerConfigurator->services();
 
