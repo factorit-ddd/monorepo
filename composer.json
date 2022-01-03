@@ -1,0 +1,49 @@
+{
+    "name": "jifeline/repo",
+    "require": {
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "php": ">=8.0.2",
+        "symfony/console": "6.0.*",
+        "symfony/dotenv": "6.0.*",
+        "symfony/flex": "^2",
+        "symfony/framework-bundle": "6.0.*",
+        "symfony/runtime": "6.0.*",
+        "symfony/yaml": "6.0.*"
+    },
+    "require-dev": {
+        "symplify/monorepo-builder": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jifeline\\Products\\CoreBundle\\": "packages/products/core-bundle/src/",
+            "Jifeline\\Products\\Core\\": "packages/products/core/src/",
+            "Jifeline\\Shared\\Core\\": "packages/shared/core/src/",
+            "Products\\": "apps/products/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Products\\Tests\\": "apps/products/tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alexbrouwer/products-core-bundle.git"
+        }
+    ],
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": "6.0.*"
+        }
+    },
+    "replace": {
+        "jifeline/products-core": "0.1.0",
+        "jifeline/products-core-bundle": "0.1.0",
+        "jifeline/shared-core": "0.1.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

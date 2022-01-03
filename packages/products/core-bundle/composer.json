@@ -1,0 +1,19 @@
+{
+    "name": "jifeline/products-core-bundle",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jifeline\\Products\\CoreBundle\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "jifeline/products-core": "^0.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}

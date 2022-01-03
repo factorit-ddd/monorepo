@@ -1,0 +1,16 @@
+{
+    "name": "jifeline/shared-core",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jifeline\\Shared\\Core\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
