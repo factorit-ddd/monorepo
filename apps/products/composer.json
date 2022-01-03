@@ -16,6 +16,20 @@
         "symfony/yaml": "6.0.*",
         "jifeline/products-core-bundle": "^0.2"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:factorit-ddd/products.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:factorit-ddd/products-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:factorit-ddd/products-core-bundle.git"
+        }
+    ],
     "config": {
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
