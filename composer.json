@@ -34,9 +34,9 @@
         }
     },
     "replace": {
-        "jifeline/products-core": "0.1.1",
-        "jifeline/products-core-bundle": "0.1.1",
-        "jifeline/shared-core": "0.1.1"
+        "jifeline/products-core": "0.1.2",
+        "jifeline/products-core-bundle": "0.1.2",
+        "jifeline/shared-core": "0.1.2"
     },
     "config": {
         "allow-plugins": {

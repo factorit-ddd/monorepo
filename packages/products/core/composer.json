@@ -8,8 +8,6 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-    },
     "extra": {
         "branch-alias": {
             "dev-main": "0.2.x-dev"
