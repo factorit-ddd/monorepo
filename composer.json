@@ -27,12 +27,6 @@
             "Products\\Tests\\": "apps/products/tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/alexbrouwer/products-core-bundle.git"
-        }
-    ],
     "extra": {
         "symfony": {
             "allow-contrib": false,
@@ -45,5 +39,11 @@
         "jifeline/shared-core": "0.1.0"
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": false,
+            "symfony/runtime": false
+        }
+    }
 }

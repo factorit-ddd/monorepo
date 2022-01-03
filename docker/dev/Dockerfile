@@ -21,7 +21,7 @@ ARG APP_CODE_PATH="/data"
 #--------------------------------------------------------------------------
 
 RUN apk update && \
-    apk add zsh git zsh-autosuggestions zsh-syntax-highlighting bind-tools curl && \
+    apk add zsh git zsh-autosuggestions zsh-syntax-highlighting bind-tools curl openssh && \
     rm -rf /var/cache/apk/*
 
 #--------------------------------------------------------------------------
@@ -49,6 +49,11 @@ RUN addgroup --gid "$HOST_GID" "$HOST_USER" \
     && adduser --ingroup "$HOST_USER" --home /home --disabled-password --shell /bin/zsh --uid $HOST_UID  "$HOST_USER"
 
 USER "$HOST_USER"
+
+ARG GIT_NAME
+ARG GIT_EMAIL
+RUN git config --global user.name "$GIT_NAME" && \
+    git config --global user.email "$GIT_EMAIL"
 
 #--------------------------------------------------------------------------
 # Setup mountpoint
