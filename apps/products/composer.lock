@@ -4,8 +4,74 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "224e86bcdb3d2766370592e1333c8cdb",
+    "content-hash": "1f1ab9f934f40f94250c70921c044a35",
     "packages": [
+        {
+            "name": "jifeline/products-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/factorit-ddd/products-core.git",
+                "reference": "c865a314fb43d711850c9c483d7fc9ae2638df79"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/factorit-ddd/products-core/zipball/c865a314fb43d711850c9c483d7fc9ae2638df79",
+                "reference": "c865a314fb43d711850c9c483d7fc9ae2638df79",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jifeline\\Products\\Core\\": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/factorit-ddd/products-core/tree/0.1.2",
+                "issues": "https://github.com/factorit-ddd/products-core/issues"
+            },
+            "time": "2022-01-03T15:31:37+00:00"
+        },
+        {
+            "name": "jifeline/products-core-bundle",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/factorit-ddd/products-core-bundle.git",
+                "reference": "5f8b81ba112bafac925b49930e3be279bf63ec8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/factorit-ddd/products-core-bundle/zipball/5f8b81ba112bafac925b49930e3be279bf63ec8d",
+                "reference": "5f8b81ba112bafac925b49930e3be279bf63ec8d",
+                "shasum": ""
+            },
+            "require": {
+                "jifeline/products-core": "^0.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jifeline\\Products\\CoreBundle\\": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/factorit-ddd/products-core-bundle/tree/0.1.2"
+            },
+            "time": "2022-01-03T15:27:11+00:00"
+        },
         {
             "name": "psr/cache",
             "version": "3.0.0",
@@ -2423,7 +2489,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
