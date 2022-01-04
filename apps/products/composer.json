@@ -14,7 +14,7 @@
         "symfony/framework-bundle": "6.0.*",
         "symfony/runtime": "6.0.*",
         "symfony/yaml": "6.0.*",
-        "jifeline/products-core-bundle": "^0.2"
+        "jifeline/products-core-bundle": "^0.3"
     },
     "repositories": [
         {

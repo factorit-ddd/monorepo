@@ -9,11 +9,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "jifeline/products-core": "^0.2"
+        "jifeline/products-core": "^0.3"
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "0.2.x-dev"
+            "dev-main": "0.3.x-dev"
         }
     }
 }
