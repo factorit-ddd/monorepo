@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f1ab9f934f40f94250c70921c044a35",
+    "content-hash": "baa90a58e8b998c0c54e8557c7823fc2",
     "packages": [
         {
             "name": "jifeline/products-core",
@@ -12,19 +12,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/factorit-ddd/products-core.git",
-                "reference": "c865a314fb43d711850c9c483d7fc9ae2638df79"
+                "reference": "e13eb17adc4ad8efee75444fa5ca5999d313362c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/factorit-ddd/products-core/zipball/c865a314fb43d711850c9c483d7fc9ae2638df79",
-                "reference": "c865a314fb43d711850c9c483d7fc9ae2638df79",
+                "url": "https://api.github.com/repos/factorit-ddd/products-core/zipball/e13eb17adc4ad8efee75444fa5ca5999d313362c",
+                "reference": "e13eb17adc4ad8efee75444fa5ca5999d313362c",
                 "shasum": ""
             },
             "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.2.x-dev"
+                    "dev-main": "0.3.x-dev"
                 }
             },
             "autoload": {
@@ -33,10 +33,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/factorit-ddd/products-core/tree/0.1.2",
+                "source": "https://github.com/factorit-ddd/products-core/tree/0.2.0",
                 "issues": "https://github.com/factorit-ddd/products-core/issues"
             },
-            "time": "2022-01-03T15:31:37+00:00"
+            "time": "2022-01-04T08:09:57+00:00"
         },
         {
             "name": "jifeline/products-core-bundle",
@@ -44,22 +44,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/factorit-ddd/products-core-bundle.git",
-                "reference": "5f8b81ba112bafac925b49930e3be279bf63ec8d"
+                "reference": "e966d8fc71ad7c34dbbddf4f1e37df5820cfe35e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/factorit-ddd/products-core-bundle/zipball/5f8b81ba112bafac925b49930e3be279bf63ec8d",
-                "reference": "5f8b81ba112bafac925b49930e3be279bf63ec8d",
+                "url": "https://api.github.com/repos/factorit-ddd/products-core-bundle/zipball/e966d8fc71ad7c34dbbddf4f1e37df5820cfe35e",
+                "reference": "e966d8fc71ad7c34dbbddf4f1e37df5820cfe35e",
                 "shasum": ""
             },
             "require": {
-                "jifeline/products-core": "^0.2"
+                "jifeline/products-core": "^0.3"
             },
             "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.2.x-dev"
+                    "dev-main": "0.3.x-dev"
                 }
             },
             "autoload": {
@@ -68,9 +68,9 @@
                 }
             },
             "support": {
-                "source": "https://github.com/factorit-ddd/products-core-bundle/tree/0.1.2"
+                "source": "https://github.com/factorit-ddd/products-core-bundle/tree/0.2.0"
             },
-            "time": "2022-01-03T15:27:11+00:00"
+            "time": "2022-01-04T08:10:02+00:00"
         },
         {
             "name": "psr/cache",
