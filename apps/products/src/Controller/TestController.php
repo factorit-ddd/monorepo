@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace Products\Controller;
 
-use Jifeline\Products\Domain\Product;
-use Jifeline\Products\Domain\ProductId;
+use Jifeline\Products\Core\Domain\Product;
+use Jifeline\Products\Core\Domain\ProductId;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;

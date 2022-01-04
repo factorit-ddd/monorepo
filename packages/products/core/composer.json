@@ -1,6 +1,9 @@
 {
     "name": "jifeline/products-core",
     "type": "library",
+    "require": {
+        "webmozart/assert": "^1.9"
+    },
     "autoload": {
         "psr-4": {
             "Jifeline\\Products\\Core\\": "src/"

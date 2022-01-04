@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Jifeline\Products\Domain;
+namespace Jifeline\Products\Core\Domain;
 
 final class ProductId
 {

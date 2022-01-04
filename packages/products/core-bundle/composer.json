@@ -9,7 +9,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "jifeline/products-core": "^0.3"
+        "jifeline/products-core": "^0.3",
+        "webmozart/assert": "^1.9"
     },
     "extra": {
         "branch-alias": {
