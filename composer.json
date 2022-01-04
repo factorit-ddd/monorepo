@@ -27,6 +27,20 @@
             "Products\\Tests\\": "apps/products/tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:factorit-ddd/products-core-bundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:factorit-ddd/products-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:factorit-ddd/products.git"
+        }
+    ],
     "extra": {
         "symfony": {
             "allow-contrib": false,
@@ -34,9 +48,16 @@
         }
     },
     "replace": {
+        "jifeline/products": "self.version",
         "jifeline/products-core": "0.1.2",
         "jifeline/products-core-bundle": "0.1.2",
-        "jifeline/shared-core": "0.1.2"
+        "jifeline/shared-core": "0.1.2",
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-php72": "*",
+        "symfony/polyfill-php73": "*",
+        "symfony/polyfill-php74": "*",
+        "symfony/polyfill-php80": "*"
     },
     "config": {
         "allow-plugins": {
@@ -44,6 +65,6 @@
             "symfony/runtime": false
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
