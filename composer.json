@@ -49,16 +49,10 @@
         }
     },
     "replace": {
-        "jifeline/products": "0.2.0",
-        "jifeline/products-core": "0.2.0",
-        "jifeline/products-core-bundle": "0.2.0",
-        "jifeline/shared-core": "0.2.0",
-        "symfony/polyfill-ctype": "*",
-        "symfony/polyfill-iconv": "*",
-        "symfony/polyfill-php72": "*",
-        "symfony/polyfill-php73": "*",
-        "symfony/polyfill-php74": "*",
-        "symfony/polyfill-php80": "*"
+        "jifeline/products": "0.3.0",
+        "jifeline/products-core": "0.3.0",
+        "jifeline/products-core-bundle": "0.3.0",
+        "jifeline/shared-core": "0.3.0"
     },
     "config": {
         "allow-plugins": {
